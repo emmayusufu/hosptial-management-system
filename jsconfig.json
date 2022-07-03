@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": "./src",
+    "paths": {
+      "@app/*": ["*"]
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules", "dist", "cypress"]
+}
